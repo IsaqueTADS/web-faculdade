@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  color: white;
+  position: relative;
+  margin-top: 7rem;
+}
+
+.title {
+  font-size: 2.1rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.content {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
