@@ -1,8 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  /* font-family: "Montserrat", Arial, Helvetica, sans-serif; */
+  font-family: 'Fira Code', monospace;
   color: white;
   position: relative;
-  margin-top: 7rem;
+  background-color: #545454;
+
 }
 
 .title {
@@ -12,8 +18,3 @@ body {
   margin-bottom: 30px;
 }
 
-.content {
-  max-width: 70rem;
-  margin: 0 auto;
-  padding: 20px 40px;
-}

@@ -1,24 +1,37 @@
 .about-section {
-  margin-top: 40px;
+  margin-top: 40;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .main-content {
   display: grid;
-  grid-template-columns: 600px 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #545454;
+  padding: 40px;
 }
-.profile-section{
+.profile-section {
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center ;
+  align-items: center;
   justify-items: center;
   gap: 1rem;
 }
 .profile-name {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 500;
   color: white;
 }
-.profile-img{
+.profile-img {
   border-radius: 50%;
+  max-width: 410px;
+  border: 5px solid white;
+  box-shadow: 0 0 0 8px rgba(152, 255, 152, 1);
+}
+
+.about-description {
+  line-height: 1.4;
+  font-size: 1.1rem;
 }

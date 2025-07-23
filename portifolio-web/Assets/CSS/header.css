@@ -2,15 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7rem;
-  margin-top: 40px;
+  height: 5rem;
   background-color: #404040;
-  position: fixed;
-  top: -2.5rem;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 40px;
+  padding: 10px;
+
 }
 
 .social-list {
@@ -18,7 +14,6 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background-color: rebeccapurple;
 }
 
 .social-item {
@@ -34,4 +29,7 @@
 
 .site-title {
   color: #01e1f7;
+  font-size: 1.5rem;
+  font-weight: bold;
+
 }
